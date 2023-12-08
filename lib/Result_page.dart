@@ -45,7 +45,8 @@ class BMI extends StatelessWidget {
                            ),
                            Column(
                              children: [
-                               Text(interpretation),
+                               Text(interpretation,style: TextStyle(fontSize: 25),),
+                               SizedBox(height: 20,),
                                Text("18.5-25.5 kg/m2"),
                              ],
                            ),
